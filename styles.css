@@ -10,14 +10,14 @@ h1 {
 	font-family: Copperplate, "Copperplate Gothic Bold", sans-serif;
 	font-size: 400%;
 }
-p.subHeader {
+h2 {
 	color: white;
 	text-align: center;
-	font-family: arial;
+	font-family: Arial;
 	text-size: 300%;
 }
 p {
-	color: gray;
+	color: white;
 	text-align: center;
 	padding: 25px;
 }
