@@ -1,8 +1,6 @@
 body {
-	background-image: url("pics/guitar.png");
-	background-repeat: no-repeat;
-	background-size: 25%;
-	background-position: top;
+	background: linear-gradient(rgba(71,177,200,0.5), rgba(71,177,200,0.5)), url("pics/guitar.png");
+	background-size: cover;
 	background-color: LightSkyBlue;
 	text-align: center;
 }
