@@ -1,0 +1,49 @@
+
+header {
+	text-align: center;
+	background-color: #bf2d2d;
+}
+
+body {
+	text-align: center;
+	background-color: maroon;
+}
+
+h1 {
+	color: white !important;
+	font-family: Copperplate, "Copperplate Gothic Bold", sans-serif !important;
+}
+
+h2 {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+li {
+	color: white;
+}
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: maroon;
+}
+
+footer {
+	background-color: #bf2d2d;
+}
+
+.jumbotron {
+	background-color: #5B5DA9;
+}

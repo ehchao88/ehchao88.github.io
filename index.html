@@ -1,32 +1,140 @@
 <!DOCTYPE html>
+<html lang = "en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title> Eric Chao </title>
-<link rel="shortcut icon" href="logo.ico">
-<link rel="icon" href="logo.ico">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> ERIC CHAO </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="index_styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
+<header>
+	<div class="row">
+		<div class="col-sm-3">
+			<h1>ERIC CHAO</h1>
+		</div>
+		<div class="col-sm-3">
+			<h2>	
+				<a href="#about"> ABOUT ME </a>
+			</h2>
+		</div>
+		</a>
+		<div class="col-sm-3">
+			<h2>
+				<a href="#work"> MY WORK </a>
+			</h2>
+		</div>
+		<div class="col-sm-3">
+			<h2>
+				<a href="contact.html"> CONTACT ME </a>
+			</h2>
+		</div>
+	</div>
+</header>
+
 <body>
-<h1> ERIC CHAO </h1>
-<h2> Student, Guitarist, Developer </h2>
+	<div class="jumbotron" style="background-image: url('media/guitar.png'); background-size: cover;">
+		<h1> Hi, I'm Eric... </h1>
+		<h2> Student, Developer, Guitarist </h2>
+		<p> BOSTON, MA </p>
+	</div>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 id="about"> ABOUT ME </h1>
+			<p> 
+				I am currently an undergraduate student at Boston University pursuing a bachelor's degree in Computer Science. Having always been surrounded by technology, I always had a curiosity
+				of what powered everything behind it, which naturally led me to become interested in programming. </br>
+				My first experience with anything programming related was in 6th grade when I figured out how to look at the code of my favorite game at the time: Minecraft. From there, I was
+				hooked and was led down a path of classes and self teaching where I picked up skills in everything from MIT's Scrath to C. </br>
+				Beyond programming, music has always been a big part of my life and having played instruments ranging from the violin to the trumpet, I started to form an identity around my musical
+				tastes. Guitar was the only instrument that struck a chord ;) and it has become a refreshing hobby to maintain since I was 8 years old.
+			</p>
+			<h2> SKILLS </h2>
+			<div class="row">
+				<div class="col-sm-4">
+					<h3> Programming </h3>
+					<ul>
+						<li><p style="text-align: left;"> Java </p></li>
+						<li><p style="text-align: left;"> Python </p></li>
+						<li><p style="text-align: left;"> C </p></li>
+						<li><p style="text-align: left;"> HTML/CSS/Bootstrap </p></li>
+						<li><p style="text-align: left;"> Django </p></li>
+						<li><p style="text-align: left;"> Unity Game Engine </p></li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<h3> Video Editing </h3>
+					<ul>
+						<li><p style="text-align: left;"> Sony Vegas Pro </p></li>
+						<li><p style="text-align: left;"> Final Cut Pro X </p></li>
+						<li><p style="text-align: left;"> Adobe Premiere </p></li>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<h3> Computer-Aided Design </h3>
+					<ul>
+						<li><p style="text-align: left;"> Autodesk Maya </p></li>
+						<li><p style="text-align: left;"> Blender </p></li>
+						<li><p style="text-align: left;"> OnShape </p></li>
+						<li><p style="text-align: left;"> Photoshop </p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
-<p> Please stay a while... </p>
-
-<p>
-<a href="work.html"> My Work </a>
-</p>
-
-<p>
-<a href="about.html"> About Me </a>
-</p>
-
+	<div class="container">
+		<div class="jumbotron">
+			<h1 id="work"> MY WORK </h1>
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>Programming Projects</h2>
+					<h3><a href="https://github.com/ehchao88/ehchao88.github.io"> Website </a> </h3>
+					<ul>
+						<li> This website is to keep track of and show projects that I am currently working on or finished. It is also a place to show a bit about myself. </li>
+					</ul>
+					<h3><a href="https://github.com/moderatelyfunctional/BuHub"> BU Hub  </a></h3>
+					<ul>
+						<li>
+							For the current freshman class, BU implemented a new system for their general education requirements which is called "The Hub". It revolves around taking courses within 6 "Essential Capacities". Many of the current freshman class find the requirements for The Hub unintuitive and have trouble deciding which classes to take in order to efficiently fulfill all the requirements. Our project aims to help these students and after they input their major and which AP credits they received, provide them with a personalized list of classes which they may take throughout their time at BU which will ensure that the Hub is fulfilled.
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-6">
+					<h2> Video Projects </h2>
+					<p> Coming Soon </p>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
 <footer>
-<a href="https://www.github.com/ehchao88" style="font-size: 100%; padding: 5px;"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-<a href="https://www.twitter.com/chaositgoing" style="font-size: 100%; padding: 5px;"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-<a href="https://www.facebook.com/ehchao88" style="font-size: 100%; padding: 5px;"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-<a href="https://www.instagram.com/chaoareyou" style="font-size: 100%; padding: 5px;"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+	<div class="row">
+		<div class="col-sm-3">
+			<h1> Connect with me: </h1>
+		</div>
+		<div class="col-sm-1">
+			<h1><a href="https://www.github.com/ehchao88" class="fa fa-github-square" aria-hidden="true"></a></h1>
+		</div>
+		<div class="col-sm-1">
+			<h1><a href="https://www.twitter.com/chaositgoing" class="fa fa-twitter-square" aria-hidden="true"></a></h1>
+		</div>
+		<div class="col-sm-1">
+			<h1><a href="https://www.facebook.com/ehchao88" class="fa fa-facebook-square" aria-hidden="true"></a></h1>
+		</div>
+		<div class="col-sm-1">
+			<h1><a href="https://www.instagram.com/chaoareyou" class="fa fa-instagram" aria-hidden="true"></a></h1>
+		</div>
+		<div class="col-sm-5">
+			<h2> ERIC CHAO </h2>
+		</div>
+	</div>
 </footer>
+
+
+
+</html>
