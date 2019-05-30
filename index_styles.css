@@ -1,49 +1,50 @@
 
 header {
 	text-align: center;
-	background-color: #bf2d2d;
+	background-color: black;
+	color: white;
 }
 
 body {
 	text-align: center;
-	background-color: maroon;
+	background-color: white;
 }
 
 h1 {
-	color: white !important;
-	font-family: Copperplate, "Copperplate Gothic Bold", sans-serif !important;
+	color: black !important;
+	font-family: Verdana, Geneva, serif !important;
 }
 
 h2 {
-	color: white;
+	color: black;
 }
 
 h3 {
-	color: white;
+	color: black;
 }
 
 p {
-	color: white;
+	color: black;
 }
 
 li {
-	color: white;
+	color: black;
 }
 
 a:link, a:visited {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: none;
-	background-color: maroon;
+	color: maroon !important;
 }
 
 footer {
-	background-color: #bf2d2d;
+	background-color: #a6acb5;
 }
 
 .jumbotron {
-	background-color: #5B5DA9;
+	background-color: white;
 }
