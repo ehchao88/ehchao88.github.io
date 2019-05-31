@@ -3,6 +3,7 @@ html{
 }
 
 nav {
+	padding: 1%;
 	font-family: Verdana, Geneva, serif;
 	font-size: large;
 	color: #a6acb5;
