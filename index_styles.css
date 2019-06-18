@@ -3,7 +3,7 @@ html{
 }
 
 nav {
-	font-family: Verdana, Geneva, serif;
+	font-family: Bookman, URW Bookman L, serif;
 	font-size: large;
 	color: #a6acb5;
 }
@@ -21,19 +21,27 @@ body {
 
 h1 {
 	color: black !important;
-	font-family: Verdana, Geneva, serif !important;
+	font-family: Bookman, URW Bookman L, serif !important;
 }
 
 h2 {
 	color: black;
+	font-family: Bookman, URW Bookman L, serif !important;
 }
 
 h3 {
 	color: black;
+	font-family: Bookman, URW Bookman L, serif !important;
+}
+
+h4 {
+	color: black;
+	font-family: Bookman, URW Bookman L, serif !important;
 }
 
 p {
 	color: black;
+	font-family: Bookman, URW Bookman L, serif;
 }
 
 li {
@@ -57,7 +65,15 @@ footer {
 .jumbotron {
 	background-color: white;
 }
+.topPage {
+	background: linear-gradient(rgba(75,75,75,0.5), rgba(215,215,215,0.5)), url('media/dotonbori.jpg') !important;
+	background-size: cover !important;
+	background-position:center !important;
+}
 .navbar-brand{
 	font-size: xx-large;
 	color: #a6acb5;
+}
+.carousel-caption {
+	color: black !important;
 }
