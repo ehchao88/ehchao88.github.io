@@ -2,6 +2,10 @@ html{
 	scroll-behavior: smooth;
 }
 
+hr.m {
+	border-top: solid black;
+}
+
 nav {
 	font-family: Bookman, URW Bookman L, serif;
 	font-size: large;
@@ -46,6 +50,16 @@ p {
 
 li {
 	color: black;
+}
+
+.mheader {
+	font-weight: bold;
+}
+
+img.music {
+	width: 35%;
+	height: auto;
+	padding: 0;
 }
 
 a:link, a:visited {
