@@ -46,6 +46,7 @@ h4 {
 p {
 	color: black;
 	font-family: 'Quicksand', sans-serif;
+	text-align: left;
 	font-weight: 500 !important;
 }
 
@@ -70,7 +71,7 @@ a:link, a:visited {
 
 a:hover {
 	text-decoration: none;
-	color: maroon !important;
+	color: #CC0000 !important;
 }
 
 button.spotify {
